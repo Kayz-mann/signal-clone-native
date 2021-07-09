@@ -6,8 +6,9 @@ import {
   View,
   Text,
   TouchableOpacity,
+  Button
 } from "react-native";
-import { Button, Input, Image } from "react-native-elements";
+import {  Input, Image } from "react-native-elements";
 import { auth } from "../firebase";
 import * as ImagePicker from 'expo-image-picker';
 
@@ -53,9 +54,9 @@ const RegisterScreen = ({ navigation }) => {
   return (
     <KeyboardAvoidingView behavior="padding" style={styles.container}>
       <StatusBar style="light" />
-      <Text h2 style={{ marginTop: 20, fontSize: 24 }}>
+      {/* <Text h2 style={{ marginTop: 20, fontSize: 24 }}>
         Create a Signal account
-      </Text>
+      </Text> */}
       <Image
         source={{
           uri:

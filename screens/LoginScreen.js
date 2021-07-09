@@ -52,6 +52,7 @@ const LoginScreen = ({ navigation }) => {
             </View>
             <Button containerStyle={styles.button} onPress={signIn} title="Login" />
             <Button 
+            type="outline"
             onPress={() => navigation.navigate("Register")}
             containerStyle={styles.button} type="outline" title="Register" />
             <View style={{ height: 100 }} />
@@ -67,14 +68,14 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         padding: 10,
         backgroundColor: "white",
-    },
-    inputContainer: {
+      },
+      inputContainer: {
         width: 300,
-    },
-    button: {
-        width: 300,
-        marginTop: 20,
-    }
+      },
+      button: {
+        width: 200,
+        marginTop: 10,
+      }
   });
   
 
