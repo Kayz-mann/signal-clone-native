@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { StatusBar } from 'react-native';
 import { View, Text, KeyboardAvoidingView, StyleSheet } from 'react-native'
-import { Button, Image } from 'react-native'
-import { Input } from 'react-native-elements';
+import {  Image } from 'react-native'
+import { Input, Button } from 'react-native-elements';
 import { auth } from '../firebase';
 
 const LoginScreen = ({ navigation }) => {
@@ -62,20 +62,20 @@ const LoginScreen = ({ navigation }) => {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center",
-        padding: 10,
-        backgroundColor: "white",
-      },
-      inputContainer: {
-        width: 300,
-      },
-      button: {
-        width: 200,
-        marginTop: 10,
-      }
+     container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 10,
+    backgroundColor: "white",
+  },
+  inputContainer: {
+    width: 300,
+  },
+  button: {
+    width: 200,
+    marginTop: 10,
+  },
   });
   
 

@@ -6,9 +6,8 @@ import {
   View,
   Text,
   TouchableOpacity,
-  Button
 } from "react-native";
-import {  Input, Image } from "react-native-elements";
+import { Button, Input, Image } from "react-native-elements";
 import { auth } from "../firebase";
 import * as ImagePicker from 'expo-image-picker';
 
